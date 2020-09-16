@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+    <item android:id="@+id/setting"
+        android:title="Setting"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="10"
+        android:icon="@drawable/ic_baseline_settings_24"
+
+        />
+    <item android:id="@+id/fav"
+        android:title="Fave"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        />
+    <item android:id="@+id/setting1"
+        android:title="Setting"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_settings_24"
+
+        />
+    <item android:id="@+id/fav1"
+        android:title="Fave"
+        app:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        />
+    <item android:id="@+id/setting2"
+        android:title="Setting"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_settings_24"
+
+        />
+    <item android:id="@+id/fav2"
+        android:title="Fave"
+        app:showAsAction="ifRoom|withText"
+        android:orderInCategory="5"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        />
+    </group>
+</menu>
